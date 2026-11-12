@@ -1,7 +1,7 @@
 /* The export step inserts the integrity hashes of the release served by Pages. */
-const files = {"index.html":"sha256-gSk/wZsN3vwISxgvJNO7i6wrdgaft9FKeChsHIGII7o=","manifest.webmanifest":"sha256-bTZnNZwttyhecAzJ3fIK0rXixoQcad0+DHPQNKAPz+A=","icon-180.png":"sha256-hPt2L9+yi6Yq6bNNpNh5XIcOtjeCDykR2DclbGoug3s=","icon-192.png":"sha256-BdY4LzWL5k4GXPcvgekW4WMpQ1JnYG1080FmAChSOzY=","icon-512.png":"sha256-klDUaoJPvQOWKeI4hgJIsx6vRbvhmck4k14fU0EfYYI=","musica/teatro.mp3":"sha256-Mym3NqKiBdup3kIai5u54a05xB5JWoudfMCANBm9cUA=","musica/museo.mp3":"sha256-pz1Hr2RchbuqNdOLiykMd1CR3tW3g4y3hfa/YGfjkoA=","musica/hotel.mp3":"sha256-jFPQfi1BYvnI8mthsLqREEDwuAgIt5oz0X/JoYtoTpo=","musica/estacion-espacial.mp3":"sha256-QZqLcqHpK5WnewueGmaod3vNM760fw3UD69YLJ6HXdo=","musica/excavacion.mp3":"sha256-76IvrY6zxCkEvBJMoOabTYA4o4iE/zYcy8omIyBZPCA="};
+const files = {"index.html":"sha256-GdpwbQT/afxPDVAI+YzdIWmZo2Kf3twayvbafeBeMtU=","manifest.webmanifest":"sha256-bTZnNZwttyhecAzJ3fIK0rXixoQcad0+DHPQNKAPz+A=","icon-180.png":"sha256-hPt2L9+yi6Yq6bNNpNh5XIcOtjeCDykR2DclbGoug3s=","icon-192.png":"sha256-BdY4LzWL5k4GXPcvgekW4WMpQ1JnYG1080FmAChSOzY=","icon-512.png":"sha256-klDUaoJPvQOWKeI4hgJIsx6vRbvhmck4k14fU0EfYYI=","musica/teatro.mp3":"sha256-Mym3NqKiBdup3kIai5u54a05xB5JWoudfMCANBm9cUA=","musica/museo.mp3":"sha256-pz1Hr2RchbuqNdOLiykMd1CR3tW3g4y3hfa/YGfjkoA=","musica/hotel.mp3":"sha256-jFPQfi1BYvnI8mthsLqREEDwuAgIt5oz0X/JoYtoTpo=","musica/estacion-espacial.mp3":"sha256-QZqLcqHpK5WnewueGmaod3vNM760fw3UD69YLJ6HXdo=","musica/excavacion.mp3":"sha256-76IvrY6zxCkEvBJMoOabTYA4o4iE/zYcy8omIyBZPCA="};
 const prefix = "interdoku-pwa:" + self.registration.scope + ":";
-const cacheName = prefix + "9acfceec9f9d03021575e15f";
+const cacheName = prefix + "69dad61b8626458b20685849";
 const assets = new Map(Object.entries(files).map(([name, integrity]) =>
   [new URL(name, self.registration.scope).href, integrity]));
 const home = new URL("index.html", self.registration.scope).href;
