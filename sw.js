@@ -1,7 +1,7 @@
 /* The export step inserts the integrity hashes of the release served by Pages. */
-const files = {"index.html":"sha256-WM1OwM3Zkp1AghbgtjQmwso0HdGBKzFDJtOkpaS6r6c=","manifest.webmanifest":"sha256-bTZnNZwttyhecAzJ3fIK0rXixoQcad0+DHPQNKAPz+A=","icon-180.png":"sha256-hPt2L9+yi6Yq6bNNpNh5XIcOtjeCDykR2DclbGoug3s=","icon-192.png":"sha256-BdY4LzWL5k4GXPcvgekW4WMpQ1JnYG1080FmAChSOzY=","icon-512.png":"sha256-klDUaoJPvQOWKeI4hgJIsx6vRbvhmck4k14fU0EfYYI="};
+const files = {"index.html":"sha256-B4q9WvYmPUjDP2/xex80kHzbWRffoyu53KXZ+6Xwx2Q=","manifest.webmanifest":"sha256-bTZnNZwttyhecAzJ3fIK0rXixoQcad0+DHPQNKAPz+A=","icon-180.png":"sha256-hPt2L9+yi6Yq6bNNpNh5XIcOtjeCDykR2DclbGoug3s=","icon-192.png":"sha256-BdY4LzWL5k4GXPcvgekW4WMpQ1JnYG1080FmAChSOzY=","icon-512.png":"sha256-klDUaoJPvQOWKeI4hgJIsx6vRbvhmck4k14fU0EfYYI="};
 const prefix = "interdoku-pwa:" + self.registration.scope + ":";
-const cacheName = prefix + "a8862a01dc061401abd1acb4";
+const cacheName = prefix + "c446a089b0bed00114f37c7b";
 const assets = new Map(Object.entries(files).map(([name, integrity]) =>
   [new URL(name, self.registration.scope).href, integrity]));
 const home = new URL("index.html", self.registration.scope).href;
