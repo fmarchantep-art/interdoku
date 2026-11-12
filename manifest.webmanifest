@@ -1,0 +1,32 @@
+{
+  "id": "/interdoku/",
+  "name": "Interdoku",
+  "short_name": "Interdoku",
+  "description": "Investiga un caso, reconstruye el plano y contrasta tus hipótesis.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#612b36",
+  "background_color": "#f3eee4",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
