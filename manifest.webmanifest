@@ -3,7 +3,7 @@
   "name": "Interdoku",
   "short_name": "Interdoku",
   "description": "Investiga un caso, reconstruye el plano y contrasta tus hipótesis.",
-  "lang": "es",
+  "lang": "es-ES",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
